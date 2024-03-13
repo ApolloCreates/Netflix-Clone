@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+.main1 {
+  background-image: url("Images/bg.png");
+  height: 80vh;
+  position: relative;
+  z-index: 1;
+}
+.main1 .box {
+  height: 80vh;
+  width: 100%;
+  opacity: 0;
+  background-color: black;
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+}
+nav {
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 100px;
+}
+.main1 nav img {
+  height: 80px;
+  z-index: 10;
+}
+nav button {
+  z-index: 10;
+  position: relative;
+  border-radius: 6px;
+  padding: 10px;
+  color: white;
+}
+nav .language {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+}
+nav .signin {
+  background-color: red;
+  border: none;
+}
+.heading {
+  color: white;
+}
+.h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  color: white;
+}
+.h2 {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  color: white;
+}
+.h3 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 30px;
+}
+.mail {
+  display: flex;
+  justify-content: center;
+}
+.get {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-left: 5px;
+}
+.email {
+  border: none;
+  background-color: rgba(196, 196, 196, 0.332);
+  border-radius: 5px;
+}
+.email input {
+  background-color: transparent;
+  border-radius: 5px;
+}
+.sep {
+  height: 15px;
+  width: 100%;
+  background-color: rgb(29, 27, 27);
+}
+.main2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .box1{background-color: aqua;} */
+.box2 {
+  /* background-color: rgb(44, 97, 143); */
+  display: flex;
+  align-items: center;
+}
+.h4 {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+  padding-left: 200px;
+}
+.h5 {
+  color: white;
+  font-size: 20px;
+  padding-left: 200px;
+  /* font-weight: bolder; */
+}
+.main3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h6 {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+.h7 {
+  color: white;
+  font-size: 20px;
+}
+.main4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h8 {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.h9 {
+  color: white;
+  font-size: 20px;
+}
+.box5 {
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+.faq {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.q {
+  color: white;
+}
+.more {
+  color: white;
+  height: 20px;
+  padding-right: 10px;
+}
+.ques {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(33, 32, 32);
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.ready {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight:700
+}
+.mailbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.mail1 {
+  border: none;
+  background-color: rgba(196, 196, 196, 0.332);
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.mail1 input {
+  background-color: transparent;
+  height:40px;
+  width: 250px;
+  border-radius: 5px;
+}
+.button1 {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
